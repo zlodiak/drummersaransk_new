@@ -1,0 +1,15 @@
+<ul class="auth_area">
+	{% if is_authenticated %}
+		<li>
+			<a class="logout_link btn btn-info" href="{% url 'logout' %}">Выйти</a>
+		</li>
+	{% else %}
+		<li>
+			<a class="login_link btn btn-info" href="{% url 'login' %}">Войти</a>
+		</li>
+		
+		<li>
+			<a class="registration_link btn btn-info" href="{% url 'registration' %}">Зарегистрироваться</a>
+		</li>
+	{% endif %}	
+</ul>

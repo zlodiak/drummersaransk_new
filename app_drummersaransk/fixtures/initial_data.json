@@ -1,0 +1,92 @@
+[
+	{
+		"model": "app_drummersaransk.Teacher",
+		"pk": 1,
+		"fields": {
+			"teacher": "Видеошколы и самоучители"
+		}
+	},
+	{
+		"model": "app_drummersaransk.Teacher",
+		"pk": 2,
+		"fields": {
+			"teacher": "Ф. И. О."
+		}
+	},
+	
+	
+	{
+		"model": "app_drummersaransk.Status",
+		"pk": 1,
+		"fields": {
+			"status": "Барабанный бог"
+		}
+	},
+	{
+		"model": "app_drummersaransk.Status",
+		"pk": 2,
+		"fields": {
+			"status": "Профессиональный барабанщик"
+		}
+	},	
+	{
+		"model": "app_drummersaransk.Status",
+		"pk": 3,
+		"fields": {
+			"status": "Барабанщик"
+		}
+	},	
+	{
+		"model": "app_drummersaransk.Status",
+		"pk": 4,
+		"fields": {
+			"status": "Барабанщик в прошлом"
+		}
+	},	
+	{
+		"model": "app_drummersaransk.Status",
+		"pk": 5,
+		"fields": {
+			"status": "Играю на другом инструменте, но барабанщик в душе"
+		}
+	},	
+	{
+		"model": "app_drummersaransk.Status",
+		"pk": 6,
+		"fields": {
+			"status": "Сочувствующий"
+		}
+	},		
+	
+
+	{
+		"model": "app_drummersaransk.Gender",
+		"pk": 1,
+		"fields": {
+			"gender": "Ж"
+		}
+	},
+	{
+		"model": "app_drummersaransk.Gender",
+		"pk": 2,
+		"fields": {
+			"gender": "М"
+		}
+	},
+
+
+	{
+		"model": "app_drummersaransk.City",
+		"pk": 1,
+		"fields": {
+			"city": "Саранск"
+		}
+	},
+	{
+		"model": "app_drummersaransk.City",
+		"pk": 2,
+		"fields": {
+			"city": "Рузаевка"
+		}
+	}	
+]

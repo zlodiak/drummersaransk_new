@@ -1,0 +1,23 @@
+{% if is_authenticated %}
+	<div class="nav_basic">
+		<nav class="nav_basic_inner width940">
+			<ul class="nav navbar-nav radius4 shadow2">
+				<li>
+					<a href="/{{ user_pk }}/">Личные данные</a>
+				</li>
+
+				<li>
+					<a href="/{{ user_pk }}/druminfo/">Барабанные данные</a>
+				</li>
+
+				<li>
+					<a href="/{{ user_pk }}/path_glory/">Тропа славы</a>
+				</li>
+				
+				<li>
+					<a href="/{{ user_pk }}/friends_list/">Список друзей</a>
+				</li>			
+			</ul>
+		</nav>
+	</div>
+{% endif %}
