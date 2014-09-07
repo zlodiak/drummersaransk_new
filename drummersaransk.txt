@@ -1,4 +1,4 @@
-----nav basic:
+44----nav basic:
 1. drum data edit
 2. personal data edit
 3. avatar edit
