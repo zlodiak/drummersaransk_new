@@ -37,9 +37,15 @@ def part_nav_basic(user_pk, request):
 		
 	if not request.user.is_authenticated():
 		user_pk = 'index'
+
+	try:
+		username = UserProfile.objects.get(user_ptr_id=user_pk)
+	except:
+		username = None
 		
 	return{
 		'user_pk': user_pk,
+		'username': username,
 		'is_authenticated': request.user.is_authenticated(),
 	}
 	

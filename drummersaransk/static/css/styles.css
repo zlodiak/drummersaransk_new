@@ -717,7 +717,7 @@ form{
 		border: 1px solid #d1d1d1;
 		background: url('../images/bg_nav_basic.png') left top repeat;			
 	}
-	
+
 		.nav_basic_inner ul li{
 			float: left;
 			height: 43px;
@@ -734,6 +734,7 @@ form{
 				background: url('../images/bg_content.png') left top repeat;
 			}
 			
+			.nav_basic_inner ul li:first-child,
 			.nav_basic_inner ul li a{
 				text-decoration: none;
 				text-align: center;
@@ -745,6 +746,14 @@ form{
 				height: 43px;
 				background: url('../images/del_nav_basic.png') right top no-repeat;	
 			}
+
+		.nav_basic_inner ul li:first-child{
+			font: bold 18px/43px arial, sans-serif;
+			color: #cc6633;
+
+			max-width: 200px;
+			overflow: hidden;
+		}			
 
 /*************************************************************************************************************** GLOBAL_blocks :  .topper_inner */
 .topper_inner{
@@ -836,7 +845,7 @@ form{
 
 	.header_inner .right{
 		float: right;
-		width: 500px;
+		width: 490px;
 		overflow: hidden;
 		padding: 30px 0 30px;
 	}		

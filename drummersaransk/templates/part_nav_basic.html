@@ -3,6 +3,12 @@
 		<nav class="nav_basic_inner width940">
 			<ul class="nav navbar-nav radius4 shadow2">
 				<li>
+					{% if username != None %}
+						{{ username }}:
+					{% endif %}
+				</li>
+
+				<li>
 					<a href="/{{ user_pk }}/">Личные данные</a>
 				</li>
 
