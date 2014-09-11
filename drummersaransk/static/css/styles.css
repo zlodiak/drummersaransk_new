@@ -258,13 +258,13 @@ input:-moz-placeholder {
 
 				.footer_top .footer_inner_top .foot_left{
 					float: left;
-					width: 250px;
+					width: 230px;
 					padding-top: 20px;
 				}
 
 				.footer_top .footer_inner_top .foot_center{
 					float: left;
-					width: 520px;
+					width: 540px;
 					padding-top: 20px;
 				}
 
@@ -455,8 +455,15 @@ input:-moz-placeholder {
 			font-weight: bold;
 		}
 		
+		.list_table td.date{
+			width: 28%;
+		}
+
 		.list_table td{
+			padding: 5px 0;
 			padding-right: 50px;
+
+			vertical-align: top;
 		}
 		
 		.list_table .title{
