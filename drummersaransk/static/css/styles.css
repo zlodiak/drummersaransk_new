@@ -149,6 +149,24 @@ input:-moz-placeholder {
 	margin-bottom: 10px;
 }
 
+.index_page a{
+	color: #bfbfbf;
+	text-decoration: underline;
+}
+
+.index_page a:hover{
+	text-decoration: none;
+}
+
+.index_page p{
+	padding-bottom: 10px;
+}
+
+.index_page .my_header{
+	background: none;
+	padding-bottom: 0;
+}
+
 /*************************************************************************************************************** GLOBAL_layout */
 .wrap{
 	min-height: 100%;
@@ -191,6 +209,7 @@ input:-moz-placeholder {
 	.wrap .content{
 		overflow: hidden;
 		padding-bottom: 30px;
+		min-height: 350px;
 	}	
 	
 		.wrap .content_inner{
@@ -227,12 +246,33 @@ input:-moz-placeholder {
 		
 		.footer_top{
 			overflow: hidden;
+			/*padding-top: 20px;*/
 		}
 		
 			.footer_top .footer_inner_top{
 				overflow: hidden;
 				height: 280px;
+
+				
 			}
+
+				.footer_top .footer_inner_top .foot_left{
+					float: left;
+					width: 250px;
+					padding-top: 20px;
+				}
+
+				.footer_top .footer_inner_top .foot_center{
+					float: left;
+					width: 520px;
+					padding-top: 20px;
+				}
+
+				.footer_top .footer_inner_top .foot_right{
+					float: right;
+					width: 170px;
+					padding-top: 20px;
+				}								
 			
 		.footer_bottom{
 			overflow: hidden;
@@ -246,8 +286,87 @@ input:-moz-placeholder {
 				color: #8c8989;
 				font: 12px arial,sans-serif;
 			}	
+
+/*************************************************************************************************************** GLOBAL_blocks : foot_right */
+.foot_right{
+
+}
+
+	.foot_right .foot_right_inner{
+		
+	}		
+
+		.foot_right .foot_right_inner .h2{
+			font: bold 14px/10px arial, sans-serif;
+
+			margin-bottom: 15px;
+		}	
+
+		.foot_right .foot_right_inner a{
+			font: 13px/18px arial, sans-serif;
+			color: #bfbfbf;
+			color: #444;
+
+			margin-bottom: 2px;
+			display: inline-block;
+		}
+
+		.foot_right .foot_right_inner li{
+			font: 13px/18px arial, sans-serif;
+			color: #444;
+		}
+
+		.foot_right .foot_right_inner .a:hover{
+			color: #bfbfbf;
+		}
 			
-			
+/*************************************************************************************************************** GLOBAL_blocks : foot_center */
+.foot_center{
+
+}
+
+	.foot_center .foot_center_inner{
+		padding-right: 30px;
+	}
+
+		.foot_center .foot_center_inner .article{
+			padding-bottom: 15px;
+		}
+
+			.foot_center .foot_center_inner .article .h2{
+				font: bold 14px/10px arial, sans-serif;
+
+				margin-bottom: 15px;
+			}
+
+			.foot_center .foot_center_inner .article p{
+				padding-bottom: 5px;
+			}
+
+			.foot_center .foot_center_inner .article li{
+				display: inline-block;
+				padding-right: 5px;
+			}
+
+			.foot_center .foot_center_inner .article a{
+				font: 13px/18px arial, sans-serif;
+				color: #bfbfbf;
+				color: #444;
+			}
+
+			.foot_center .foot_center_inner .article a:hover{
+				color: #bfbfbf;
+			}
+
+/*************************************************************************************************************** GLOBAL_blocks : foot_left */
+.foot_left{
+
+}
+
+	.foot_left .foot_left_inner{
+		padding-right: 30px;
+	}
+
 /*************************************************************************************************************** PAGE_SEARCH_blocks :  .pager_outer */
 .pager_outer{
 	overflow: hidden;
@@ -859,7 +978,7 @@ form{
 
 }
 
-	}		
+			
 	
 
 /*************************************************************************************************************** PLUGINS & WIDJETS : slider2  */	

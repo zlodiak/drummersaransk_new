@@ -3,14 +3,14 @@
 		"model": "app_drummersaransk.Teacher",
 		"pk": 1,
 		"fields": {
-			"teacher": "Видеошколы и самоучители"
+			"teacher": "Р’РёРґРµРѕС€РєРѕР»С‹ Рё СЃР°РјРѕСѓС‡РёС‚РµР»Рё"
 		}
 	},
 	{
 		"model": "app_drummersaransk.Teacher",
 		"pk": 2,
 		"fields": {
-			"teacher": "Ф. И. О."
+			"teacher": "Р¤. Р. Рћ."
 		}
 	},
 	
@@ -19,42 +19,42 @@
 		"model": "app_drummersaransk.Status",
 		"pk": 1,
 		"fields": {
-			"status": "Барабанный бог"
+			"status": "Р‘Р°СЂР°Р±Р°РЅРЅС‹Р№ Р±РѕРі"
 		}
 	},
 	{
 		"model": "app_drummersaransk.Status",
 		"pk": 2,
 		"fields": {
-			"status": "Профессиональный барабанщик"
+			"status": "РџСЂРѕС„РµСЃСЃРёРѕРЅР°Р»СЊРЅС‹Р№ Р±Р°СЂР°Р±Р°РЅС‰РёРє"
 		}
 	},	
 	{
 		"model": "app_drummersaransk.Status",
 		"pk": 3,
 		"fields": {
-			"status": "Барабанщик"
+			"status": "Р‘Р°СЂР°Р±Р°РЅС‰РёРє"
 		}
 	},	
 	{
 		"model": "app_drummersaransk.Status",
 		"pk": 4,
 		"fields": {
-			"status": "Барабанщик в прошлом"
+			"status": "Р‘Р°СЂР°Р±Р°РЅС‰РёРє РІ РїСЂРѕС€Р»РѕРј"
 		}
 	},	
 	{
 		"model": "app_drummersaransk.Status",
 		"pk": 5,
 		"fields": {
-			"status": "Играю на другом инструменте, но барабанщик в душе"
+			"status": "РРіСЂР°СЋ РЅР° РґСЂСѓРіРѕРј РёРЅСЃС‚СЂСѓРјРµРЅС‚Рµ, РЅРѕ Р±Р°СЂР°Р±Р°РЅС‰РёРє РІ РґСѓС€Рµ"
 		}
 	},	
 	{
 		"model": "app_drummersaransk.Status",
 		"pk": 6,
 		"fields": {
-			"status": "Сочувствующий"
+			"status": "РЎРѕС‡СѓРІСЃС‚РІСѓСЋС‰РёР№"
 		}
 	},		
 	
@@ -63,14 +63,14 @@
 		"model": "app_drummersaransk.Gender",
 		"pk": 1,
 		"fields": {
-			"gender": "Ж"
+			"gender": "Р–"
 		}
 	},
 	{
 		"model": "app_drummersaransk.Gender",
 		"pk": 2,
 		"fields": {
-			"gender": "М"
+			"gender": "Рњ"
 		}
 	},
 
@@ -79,14 +79,14 @@
 		"model": "app_drummersaransk.City",
 		"pk": 1,
 		"fields": {
-			"city": "Саранск"
+			"city": "РЎР°СЂР°РЅСЃРє"
 		}
 	},
 	{
 		"model": "app_drummersaransk.City",
 		"pk": 2,
 		"fields": {
-			"city": "Рузаевка"
+			"city": "Р СѓР·Р°РµРІРєР°"
 		}
 	}	
 ]
